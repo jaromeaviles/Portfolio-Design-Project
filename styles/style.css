@@ -1,7 +1,52 @@
 body {
     font-family: 'Inter', sans-serif;
+    background-color: #0a0a0a;
+    color: #ffffff;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Prata', serif;
 }
+
+/* helpers */
+
+.opacity-point-8 {
+    opacity: 0.8;
+}
+
+/* Navigation */
+
+.navbar {
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.navbar-brand {
+    font-family: 'Prata', serif;
+}
+.navbar-brand, .nav-link, .navbar-brand:hover, .nav-link:hover  {
+    color: #ffffff;
+}
+
+
+.navbar button {
+    background-color: #f9e94a;
+    border-radius: 0;
+    width: 150px;
+    height: 50px;
+    font-family: 'Prata', serif;
+}
+
+.navbar button:hover {
+    background-color: #f9e94a;
+    border: 0;
+    border-radius: 0;
+}
+
+/* Main */
+
+h1 {
+    font-size: 50px;
+}
+
+

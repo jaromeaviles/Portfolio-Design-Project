@@ -4,18 +4,90 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!-- Fonts Styles -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Prata&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Prata&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./styles/bootstrap-css/bootstrap.min.css" />
+
+    <!-- Custom Style CSS -->
+
+    <link rel="stylesheet" href="./styles/style.css" />
 
     <title>Portfolio Project</title>
-
   </head>
   <body>
+    <div class="wrapper container">
+      <header>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Johnathan Specter</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link opacity-point-8"
+                    aria-current="page"
+                    href="#"
+                    >Articles</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link opacity-point-8" href="#">Chats</a>
+                </li>
 
+                <li class="nav-item">
+                  <a class="nav-link opacity-point-8">Awards</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link opacity-point-8">About</a>
+                </li>
+              </ul>
 
-    <!-- Scripts -->
-    <link rel="stylesheet" href="./scripts/scripts.js">
+              <button class="btn" type="submit">Get in touch</button>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <div class="hero-text">
+          <h1>
+            Helping companies build <br />
+            better, scalable software.
+          </h1>
+          <p>
+            Award-winning web developer and author, with over 15+ years of
+            working <br />
+            experience with Fortune 500 companies like Apple, Google, Facebook,
+            and <br />
+            more.
+          </p>
+        </div>
+      </main>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <link rel="stylesheet" href="./scripts/bootstrap-js/bootstrap.min.js" />
+    <!-- Custom Scripts -->
+    <link rel="stylesheet" href="./scripts/scripts.js" />
   </body>
 </html>
