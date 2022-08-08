@@ -38,18 +38,6 @@ p {
   .nav-link:hover {
     color: #ffffff;
   }
-  button {
-    background-color: #f9e94a;
-    border-radius: 0;
-    width: 150px;
-    height: 50px;
-    font-family: "Prata", serif;
-  }
-  button:hover {
-    background-color: #f9e94a;
-    border: 0;
-    border-radius: 0;
-  }
 }
 
 /* Main */
@@ -95,6 +83,45 @@ p {
     }
     p {
       padding-bottom: 10px;
+    }
+  }
+}
+
+// Working with me
+
+.working-with-me {
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+// Footer
+
+footer {
+  background-color: #2f2f37;
+  height: 50px;
+  p {
+    margin-bottom: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+  }
+  a {
+    font-family: "Prata", serif;
+    color: white;
+    text-decoration: none;
+    &:hover {
+      color: white;
+    }
+  }
+
+  .footer-logos {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+    span {
+      margin: 5px;
     }
   }
 }

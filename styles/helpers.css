@@ -1,3 +1,18 @@
 .opacity-pt-8 {
   opacity: 0.8;
+}
+
+.btn {
+  background-color: #f9e94a;
+  border-radius: 0;
+  width: 150px;
+  height: 50px;
+  font-family: "Prata", serif;
+}
+
+.btn:hover {
+  background-color: #f9e94a;
+  border: 0;
+  border-radius: 0;
+  color: black;
 }/*# sourceMappingURL=helpers.css.map */
