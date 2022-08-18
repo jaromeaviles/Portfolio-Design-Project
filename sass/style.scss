@@ -27,8 +27,11 @@ p {
 
 .navbar {
   padding-top: 40px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   padding-left: 0;
+  @media only screen and (min-width: 992px) {
+    padding-bottom: 100px;
+  }
   .navbar-brand {
     font-family: "Prata", serif;
   }
@@ -37,6 +40,16 @@ p {
   .navbar-brand:hover,
   .nav-link:hover {
     color: #ffffff;
+  }
+
+  @media only screen and (max-width: 991px) {
+    .container-fluid {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .navbar-toggler-icon {
+      background-image: url(../Assets/hamburger-menu.svg);
+    }
   }
 }
 
@@ -68,6 +81,9 @@ p {
   .fa-right-long {
     font-size: 20px;
     margin-left: 10px;
+  }
+  img {
+    width: 100%;
   }
 }
 
