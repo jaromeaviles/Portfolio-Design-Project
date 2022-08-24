@@ -9,8 +9,7 @@
   height: 50px;
   font-family: "Prata", serif;
 }
-
-.btn:hover {
+.btn:hover, .btn:active, .btn:focus {
   background-color: #f9e94a;
   border: 0;
   border-radius: 0;

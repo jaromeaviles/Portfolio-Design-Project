@@ -12,11 +12,12 @@
   width: 150px;
   height: 50px;
   font-family: "Prata", serif;
-}
-
-.btn:hover {
-  background-color: #f9e94a;
-  border: 0;
-  border-radius: 0;
-  color: black;
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: #f9e94a;
+    border: 0;
+    border-radius: 0;
+    color: black;
+  }
 }
